@@ -6,10 +6,10 @@
 
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="Thesis omschrijving">
+<meta name="description" content="Text will be editable in browser for everyone">
 <meta property="og:title" content="Common Glory" />
 <meta property="og:image" content="http://kabk.github.io/govt4-coding/preview_image.png" />
-<meta property="dc:creator" content="Broersen, Evelien"/>
+<meta property="dc:creator" content="Evelien Broersen"/>
 <meta property="dc:created" content="2015-12-05T00:00:00Z" />
 <meta property="dc:modified" content="2015-12-05T00:00:00Z" />
 
@@ -228,5 +228,20 @@
   <p>________<br />
   <a href="#conclusie">Conclusie</a></p>
 </div>
+<script src="jquery-1.9.1.js"></script>
+<script src="jquery-migrate-1.2.1.js"></script>
+<script src="ice.js"></script>
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('apDiv4'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
 </body>
 </html>
