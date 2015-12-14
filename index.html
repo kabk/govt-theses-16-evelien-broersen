@@ -74,13 +74,25 @@
 	z-index:5;
 	text-align:right;
 }
+a:link {
+	color: #00F;
+}
+a:visited {
+	color: #00F;
+}
+a:hover {
+	color: #00F;
+}
+a:active {
+	color: #00F;
+}
 </style>
 </head>
 
 <body>
 <div id="apDiv1">a thesis of: evelien broersen</div>
 <div id="apDiv2"><a href="index.html">Common Glory</a></div>
-<div id="apDiv3"><a href="abstract.html">abstract</a> <a href="bronnen.html">bronnen</a> <a href="appropriate.html">appropriate</a></div>
+<div id="apDiv3"><a href="abstract.html">abstract</a> <a href="bronnen.html"> bronnen</a> <a href="appropriate.html"> appropriate</a></div>
 <div id="apDiv4">
   <p><a name="inleiding" id="inleiding"></a>Kopieren, reproduceren, toe-eigenen, plagiaat, hermontage, detournement, plundervisuals, re-editen, vertalen, parafraseren, imiteren, manipuleren, interpreteren, navolgen, citeren, hommage, toeschrijven, ontlenen. Dit zijn termen die allemaal draaien om een ding, het gebruiken van andermans werk. Dit gebeurt al eeuwenlang, in meer en mindere mate en het is ook altijd al een gevoelig onderwerp geweest. Zonder correcte bronvermelding spreken we van plagiaat, en dat mag niet.<br />
     Ik heb het zelf ook wel gedaan, het bewust gebruiken van andermans werk ten behoeve van mijn eigen project, zonder daarbij de bron te vermelden. Ik heb het concept in een andere context geplaatst, en ik vind dat het nu 'mijn' ontwerp is. Maar als ik dat vind, waarom zou ik dan mijn bron achterhouden? Het voelt niet helemaal goed, anderen zullen mij veroordelen van gemakzucht en gebrek aan creativiteit. Is dat terecht?<br />
@@ -266,41 +278,7 @@
      // setup and start event handling for track changes
      tracker.startTracking();
 </script>
-<script>
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('apDiv5'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
-</script>
-<script>
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('apDiv2'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
-</script>
-<script>
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('apDiv3'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
-</script>
+
+
 </body>
 </html>
