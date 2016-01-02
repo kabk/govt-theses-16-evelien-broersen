@@ -1,77 +1,79 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Common Glory</title>
 
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="description" content="Thesis omschrijving">
+<meta name="description" content="Text will be editable in browser for everyone">
 <meta property="og:title" content="Common Glory" />
-<meta property="og:image" content="http://kabk.github.io/govt4-coding/preview_image.png" />
-<meta property="dc:creator" content="Broersen, Evelien"/>
+<meta property="og:image" content="http://kabk.github.io/govt-theses-16-evelien-broersen/afbeelding.jpg" />
+<meta property="dc:creator" content="Evelien Broersen"/>
 <meta property="dc:created" content="2015-12-05T00:00:00Z" />
 <meta property="dc:modified" content="2015-12-05T00:00:00Z" />
 
+
 <style type="text/css">
-#apDiv1 {
-	position:absolute;
-	left:70px;
-	top:40px;
-	width:243px;
-	height:47px;
-	z-index:1;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:20px;
-}
-#apDiv2 {
-	width:243px;
-	position:relative;
-	margin:0 auto;
-	top:35px;
-	z-index:2;
-	text-align:center;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:20px;
-}
-#apDiv3 {
-	position:absolute;
-	left:973px;
-	top:40px;
-	width:357px;
-	height:46px;
-	z-index:3;
-	text-align:right;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:20px;
-}
-#apDiv4 {
-	width:620px;
-	position:relative;
-	margin:0 auto;
-	top:137px;
-	height:756px;
-	z-index:4;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:20px;
-	text-indent: 30px;
-}
-#apDiv5 {
-	position:fixed;
-	left:70px;
-	top:169px;
-	width:288px;
-	height:749px;
-	z-index:5;
-	font-size:14px;
+.balkje {
+	font-size: 9px;
 }
 </style>
 </head>
 
-<body>
-<div id="apDiv1">a thesis of ________</div>
+<body onload="MM_preloadImages('Common Glory/Cocolia_03.jpg')">
+<div id="apDiv1">a thesis of: evelien broersen</div>
 <div id="apDiv2"><a href="index.html">Common Glory</a></div>
-<div id="apDiv3"><a href="abstract.html">abstract</a> <a href="bronnen.html">bronnen</a> <a href="appropriate.html">appropriate</a></div>
-<div id="apDiv4">appropriate</div>
+<div id="apDiv3"><a href="abstract.html">abstract</a> <a href="bronnen.html"> bronnen</a> <a href="appropriate.html"> appropriate</a></div>
+<div id="apDiv4">
+  <p>Read, edit, delete and print!</p>
+  <p>Zoals de titel al aanduidt is ook deze thesis gemeengoed. Lees, bewerk en wis direct in de browser naar eigen inzicht. Deel en/of print naar behoeve.</p>
+</div>
+<div id="apDiv7"></div>
+<div id="apDiv5">
+  <p>&nbsp;</p>
+</div>
+
+<div id="apDiv7"></div>
+
+
+
+<link rel="stylesheet" href="demo.css" type="text/css" media="screen" />
+<script src="jquery-1.9.1.js"></script>
+<script src="jquery-migrate-1.2.1.js"></script>
+<script src="ice.js"></script>
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('apDiv4'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('apDiv1'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
+
+
 </body>
 </html>

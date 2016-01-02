@@ -1,13 +1,141 @@
+p { position:relative; }
+
+p a + span#image1 { display:none; position:absolute; left:auto; top:auto; }
+
+p a:hover + span#image1 { display:block; }
+
+p { position:relative; }
+
+
+p { position:relative; }
+
+p a + span#image2 { display:none; position:absolute; left:hhhpx; top:vvvpx; }
+
+p a:hover + span#image2 { display:block; }
+p { position:relative; }
+
+
+
 body {
 	font-size: 16px;
 	line-height: 24px;
 	height: 100%;
-	font-family: Helvetica Neue,Helvetica,Arial;
+	font-family:DIN-Light;
 }
 div.container {
 	width: 720px;
 	margin: 0 auto;
 }
+
+#apDiv1 {
+	position:absolute;
+	left:70px;
+	top:40px;
+	width:324px;
+	height:47px;
+	z-index:1;
+	font-size:20px;
+}
+#apDiv2 {
+	width:243px;
+	position:relative;
+	margin:0 auto;
+	top:35px;
+	z-index:2;
+	text-align:center;
+	font-size:20px;
+}
+#apDiv3 {
+	position:absolute;
+	left:973px;
+	top:40px;
+	width:357px;
+	height:46px;
+	z-index:3;
+	text-align:right;
+	font-size:20px;
+}
+#apDiv4 {
+	width:620px;
+	position:relative;
+	margin:0 auto;
+	top:137px;
+	height:756px;
+	z-index:4;
+	font-size:20px;
+	text-indent: 30px;
+}
+#apDiv5 {
+	position:fixed;
+	left:70px;
+	top:169px;
+	width:288px;
+	height:749px;
+	z-index:5;
+	font-size:14px;
+}
+#apDiv6 {
+	position:absolute;
+	left:177px;
+	top:45px;
+	width:150px;
+	height:22px;
+	z-index:5;
+	text-align:right;
+}
+
+#apDiv7 {
+	position:absolute;
+	left:1065px;
+	top:185px;
+	width:270px;
+	height:731px;
+	z-index:5;
+	font-size:12px;
+	line-height:normal;
+	
+
+}
+
+
+}
+a:active {
+	color: #000;
+	text-decoration: none;
+	font-weight:bold;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+h1 {
+	font-size: 27px;
+	font-style:normal;
+	font-weight:normal;
+}
+
+h2 {
+	font-size: 16px;
+	font-style:italic;
+	font-weight:normal;
+	margin-left:120px;
+}
+
+h3 {
+	font-size: 16px;
+	font-style:normal;
+	font-weight:bold;
+}
+
 .editor {
 	box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px 0;
 	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px 0;
@@ -17,17 +145,13 @@ div.container {
 	width: 700px;
 	height: 440px;
 }
-h1, h3 {
-	color: #7F7F7F;
-	text-shadow: 0 1px 0 white;
-}
+
 .control { font: 12px Arial; padding: 5px; display: inline-block; margin-bottom: 5px; }
 .control button { margin-right: 5px; }
 #content { color: #333333; font: 14px; }
 #content, #tinymce-wrapper { height: 300px; }
 #text-wrapper { 
 	width: 620px;
-	background: #CFCFCF;
 	min-height: 300px;
 	max-height: 300px;
 	overflow: auto; 
