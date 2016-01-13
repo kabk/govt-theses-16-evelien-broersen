@@ -54,6 +54,7 @@ div.container {
 	z-index:3;
 	text-align:right;
 	font-size:20px;
+	font-style:italic;
 }
 #apDiv4 {
 	width:620px;
@@ -72,17 +73,9 @@ div.container {
 	width:288px;
 	height:749px;
 	z-index:5;
-	font-size:14px;
+	font-size:10px;
 }
-#apDiv6 {
-	position:absolute;
-	left:177px;
-	top:45px;
-	width:150px;
-	height:22px;
-	z-index:5;
-	text-align:right;
-}
+
 
 #apDiv7 {
 	position:absolute;
