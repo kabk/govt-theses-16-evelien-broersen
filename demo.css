@@ -450,6 +450,16 @@ h3 {
 
 }
 
+
+h6 {
+	margin-top: 0;
+    margin-left: 17%;
+    margin-right:2%;
+    width: 26%;
+
+
+}
+
 #common {
 	width:60%;
 	position:absolute;
@@ -500,28 +510,31 @@ h3 {
 	text-align:center;
 	width:70%;
 	font-size:8px;
+
 }
 
 #omslag {
-	top:655px;
+	top:675px;
 	position:absolute;
 	left:10%;
 	right:10%;
 	width:650px;
-	font-size:18.5px;
+	font-size:18px;
 	line-height:1.5;
 
 }
 #omslag2 {
-	top:1655px;
+	top:1595px;
 	position:absolute;
 	left:10%;
 	right:10%;
 	width:650px;
-	font-size:18.5px;
+	font-size:18px;
 	line-height:1.5;
+}
 
-
+img[src*="Common Glory/balkje.jpg"] {
+    display: none;
 }
 
 img {
@@ -529,8 +542,10 @@ img {
     height: auto;
 }
 
+
+
 #thesis {
-	top:2700px;
+	top:2500px;
 	position:absolute;
 	left:10%;
 	right:10%;
