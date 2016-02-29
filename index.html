@@ -42,6 +42,18 @@ function MM_swapImage() { //v3.0
 
 
 <style type="text/css">
+abstract {
+	color: #090;
+}
+abstract {
+	color: #090;
+}
+s {
+	color: #090;
+}
+g {
+	color: #090;
+}
 </style>
 
 <script type="text/javascript">
@@ -73,7 +85,26 @@ function MM_showHideLayers() { //v9.0
 
 
 
-<div id="omslag"><IMG src="omslag6.jpg" height="640" width="800";></div>
+<div id="omslag">
+
+  <p>Copyright is outdated or in retrospect even should have never existed in the form as we know it. It is completely focused on the designer and not on the user of an existing work. It’s been <s>violated many times,</s> which proves change is necessary. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The exempt of a work leads to development. So what restrictions do <g>alternatives for copyright like anticopyright, copyleft, General Public License and Creative Commons</g> offer and what would be most beneficial for the graphic designer, a design and it’s future development?</p>
+
+<p><s>A good work needs authenticity. Genuineness, credibility and originality result in an authentic design.  When a work is copied, differences will reveal the authenticity of the user. When will this be enough for a good design?</s>
+<g>In history many designers and artists have proven copying can yield very interesting works. It’s the intention of the user that counts.</g> </p>
+
+</div>
+
+
+<div id="omslag2">
+
+<p>It’s not realistic and it will be counter-productive to have a universal idea about what <s>plagiarism</s> and originality mean. These concepts will be filled in differently by each individual. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The perfect license for graphic design doesn’t exist, a combination of licenses like Indymedia Romania and General Public License get close to my ideal. <g>A restriction to prevent commercial benefit to the user, requiring <s>publishing research</s> and a restriction to prevent future discrimination against certain groups.</g> Next to these restrictions works should be freely available. Whether attribution of the author is necessary would be up to the user.</p>
+  <p>&nbsp;</p>
+
+<p><g>Research-question:
+What are the consequences of the alternatives for copyright and what is most beneficial for the graphic designer?</g></p></div>
+
 
 
 
@@ -429,12 +460,14 @@ Ik ben in de veronderstelling dat er authenticiteit te behalen valt, wellicht ze
 
     <h1><a name="alternatieven" id="alternatieven">
     </a>10. BESTAANDE ALTERNATIEVEN VOOR COPYRIGHT EN DE CONSEQUENTIES DAARVAN</h1>
-  <p>&nbsp;</p>
-<h2>“If creativity is the field, copyright is the fence”. <br />
-- John Oswald (Canada, 1953) (27) </h2>
+
 
 <p>Er zijn al meerdere alternatieven voor copyright voorbijgekomen. Het begon bij een vrij duidelijke anticopyright, dit was compleet gericht op het belang van creatieve vrijheid en daarmee de gebruikers van bestaand werk. Maar in de loop der tijd zijn de alternatieven zich toch steeds meer gaan richten op de auteur dan op de gebruiker, waar anticopyright zich duidelijk afzet tegen het intellectueel bezit, dwalen de navolgers daar steeds verder vanaf. Anticopyright lijkt te kort door de bocht. Het is gebouwd op vertrouwen en ethische verantwoordelijkheid, dit leidt te makkelijk tot misbruik. De zoektocht naar alternatieven voor anticopyright met meer restricties of copyright met juist minder is al een poos bezig.
 Het toepassen van de verschillende licenties is vrij simpel, copyright is er automatisch en heeft geen vermelding nodig. Voor de andere licenties is die vermelding wel nodig, het betreft doorgaans een simpele verwijzing geplaatst bij het betreffende werk. Hoe deze vermelding aangeduid dient te worden wordt gegeven door de verschillende licenties. </p>
+  
+<h2>“If creativity is the field, copyright is the fence”. <br />
+- John Oswald (Canada, 1953) (27) </h2>
+
 
 <h5><a name="copyright" id="copyright">
     </a>10.1 Copyright </h5>
@@ -758,6 +791,48 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      // setup and start event handling for track changes
      tracker.startTracking();
 </script>
+
+
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('better'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
+
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('omslag'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
+
+
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('omslag2'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
+
 
 </body>
 </html>

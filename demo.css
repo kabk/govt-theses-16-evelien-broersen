@@ -28,13 +28,25 @@ div.container {
 }
 
 #omslag {
-	width:650px;
-	position:relative;
-	margin:0 auto;
-	top:30px;
+	width:375px;
+	position:absolute;
+	top:50px;
 	height:200px;
+	font-size:21px;
 	z-index:4;
-	left:8%;
+	left:520px;
+	line-height:1.2;
+}
+
+#omslag2 {
+	width:375px;
+	position:absolute;
+	top:50px;
+	height:200px;
+	font-size:21px;
+	z-index:4;
+	left:920px;
+	line-height:1.2;
 }
 
 #common {
@@ -198,7 +210,7 @@ div#bronnen a:active { color: #000; }
 #uitleg {
 	height: 14px;
 	position:absolute;
-	top:540px;
+	top:555px;
     width:160px;
 	left:70px;
     z-index:1;
@@ -247,7 +259,7 @@ h2 {
 h3 {
 	font-size: 9px;
 	font-style:normal;
-	margin-left:250px;
+	margin-left:300px;
 }
 
 h4 {
