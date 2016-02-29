@@ -383,3 +383,163 @@ body {
 p {
     margin: 1em auto;
 }
+
+
+@media print {
+    pijl {
+        display: none;
+    }
+	print {
+        display: none;
+    }
+
+    h1 {
+    page-break-before: always;
+}
+}
+
+
+
+
+@media screen and (max-width: 700px){
+#pijl {
+        display: none;
+    }
+#print {
+        display: none;
+    }
+
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 2%;
+    margin-right:2%;
+    width: 38%;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    margin-left: 2%;
+    margin-right:2%;
+    width: 40%;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    margin-left: 12%;
+    margin-right:2%;
+    width: 30%;
+}
+
+h3 {
+	margin-top: 0;
+    margin-left: 17%;
+    margin-right:2%;
+    width: 60%;
+    font-size: 8px;
+    line-height: 1;
+
+}
+
+#common {
+	width:60%;
+	position:absolute;
+	left:15%;
+	right:10%;
+	font-size:21px;
+	line-height:2.2;
+}
+
+#better {
+	width:60%;
+	position:absolute;
+	left:15%;
+	right:10%;
+	font-size:21px;
+	line-height:1.5;
+}
+
+#evelien {
+	width:60%;
+	position:absolute;
+	left:15%;
+	right:10%;
+	font-size:21px;
+	line-height:2.2;
+}
+
+#title {
+	position:absolute;
+	left:47%;
+	right:10%;}
+
+#subtitle {
+	position:absolute;
+	left:43%;
+	right:10%;}
+
+#author {
+	position:absolute;
+	left:44%;
+	right:10%;}
+
+#uitleg {
+	position:absolute;
+	left:15%;
+	right:10%;
+	top:480px;
+	text-align:center;
+	width:70%;
+	font-size:8px;
+}
+
+#omslag {
+	top:655px;
+	position:absolute;
+	left:10%;
+	right:10%;
+	width:650px;
+	font-size:18.5px;
+	line-height:1.5;
+
+}
+#omslag2 {
+	top:1655px;
+	position:absolute;
+	left:10%;
+	right:10%;
+	width:650px;
+	font-size:18.5px;
+	line-height:1.5;
+
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#thesis {
+	top:2700px;
+	position:absolute;
+	left:10%;
+	right:10%;
+	width:650px;
+	font-size:15px;
+
+}
+
+#sticky {
+display: none;
+
+}
