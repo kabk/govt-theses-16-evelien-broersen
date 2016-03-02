@@ -429,8 +429,7 @@ h2 {
     line-height: 1.5;
     margin-bottom: 25px;
     margin-left: 12%;
-    margin-right:2%;
-    width: 30%;
+
 }
 
 h3 {
@@ -551,7 +550,7 @@ img {
 	top:1950px;
 	position:absolute;
 	left:15%;
-	right:5%;
+	right:15%;
 	width:65%;
 	font-size:13px;
 
