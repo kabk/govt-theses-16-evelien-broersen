@@ -130,15 +130,17 @@ div.container {
 }
 
 #thesis {
-	width:650px;
+      min-width: 300px;
+      max-width: 650px;
 	position:relative;
 	margin:0 auto;
 	top:800px;
 	height:756px;
-	z-index:4;
+	z-index:1;
 	font-size:19px;
 	line-height:1.4;
 	left:10%;
+
 }
 
 #bronnen {
@@ -408,10 +410,7 @@ p {
 
 p {
     margin-top: 0;
-    margin-bottom: 25px;
-    margin-left: 2%;
-    margin-right:2%;
-    width: 38%;
+
 }
 
 h1 {
@@ -520,20 +519,20 @@ h6 {
 #omslag {
 	top:675px;
 	position:absolute;
-	left:10%;
-	right:10%;
-	width:650px;
-	font-size:18px;
+	left:15%;
+	right:0;
+	width:65%;
+	font-size:15px;
 	line-height:1.5;
 
 }
 #omslag2 {
-	top:1595px;
+	top:180%;
 	position:absolute;
-	left:10%;
-	right:10%;
-	width:650px;
-	font-size:18px;
+	left:15%;
+	right:0;
+	width:65%;
+	font-size:15px;
 	line-height:1.5;
 }
 
@@ -549,12 +548,12 @@ img {
 
 
 #thesis {
-	top:2500px;
+	top:1950px;
 	position:absolute;
-	left:10%;
-	right:10%;
-	width:650px;
-	font-size:15px;
+	left:15%;
+	right:5%;
+	width:65%;
+	font-size:13px;
 
 }
 
