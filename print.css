@@ -1,0 +1,178 @@
+@media print {
+
+
+    #pijl, #print, #omslag, #uitleg, #sticky, #omslag2 {
+        display: none; }
+
+
+        h1 {
+    	page-break-inside : avoid;
+    	page-break-before : always;}
+
+    	h2 {
+    	page-break-inside : avoid;
+    	page-break-before : auto;
+    	margin-left:120px;
+    	font-size:12pt;}		
+
+        h3 {
+    	margin-left:150px; 
+    	page-break-inside : avoid;
+    	page-break-before : auto;
+    	font-size:9pt;}	
+
+    	p {
+    	page-break-inside: avoid;}
+
+
+
+
+
+	@page {
+  		sheet-size:JIS B4;
+  		size: 18.2cm 25.7cm;
+		orphans:5; 
+		widows:5;
+		margin-bottom:2cm;
+		margin-top:1cm;}
+
+	@page :left {
+  		margin-left: 0cm;
+  		margin-right:3.5cm;}
+
+	@page :right {
+  		margin-left: 3.5cm;
+  		margin-right:1cm;}
+
+
+
+  @top-center {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    content: counter(page);}
+
+
+
+#common {
+	position:absolute;
+	left: 8%;
+	right: 50%; 
+	width: 13cm;
+	height:3cm;
+	border: 6px solid #000;
+	font-size:48px;
+	top:8cm;
+	line-height:2.5;}
+
+#better {
+	position:absolute;
+	left: 8%;
+	right: 50%; 
+	width: 13cm;
+	height:5cm;
+	border: 6px solid #000;
+	font-size:48px;
+	top:15cm;
+	line-height:1.4;}
+
+#evelien {
+	position:absolute;
+	left: 8%;
+	right: 50%; 
+	width: 13cm;
+	height:3cm;
+	border: 6px solid #000;
+	font-size:48px;
+	top:24cm;
+	line-height:2.5;
+	page-break-before: left;}
+
+
+	#title {
+	position:absolute;
+	left: 40%;
+	right: 50%; 
+  	top: 7cm;
+	width:140px;
+	height:40px;
+	z-index:1;
+	font-size:24px;}
+
+	#subtitle {
+	position:absolute;
+	left: 38%;
+	right: 50%; 
+  	top: 14cm;
+	width:140px;
+	height:40px;
+	z-index:1;
+	font-size:24px;}
+
+	#author {
+	position:absolute;
+	left: 38%;
+	right: 50%; 
+  	top: 23cm;
+	width:140px;
+	height:40px;
+	z-index:1;
+	font-size:24px;}
+
+
+
+	#thesis {
+	top:2cm;
+  	width:13cm;
+	line-height:1.4;
+	font-size:12pt; }
+
+	img {
+  	width: 100%;
+  	height:100%;}
+
+	table, figure {
+  		page-break-inside: avoid;}
+
+
+  	img[src*="Common Glory/balkje.jpg"] {
+    	display: none; }
+
+
+.screen-only {
+        display: none; }
+
+.page-break	{ display: block; 
+				page-break-before: always;
+			width: 100%;
+}
+.white	{ display: block; 
+			background-color:#FFFFFF;
+			width: 18cm;
+			height:25cm;
+}
+
+.abstract {
+		display: block;
+		top:2cm;
+		font-size:15pt;
+		width:13cm;
+		line-height:1.5;
+		top:2cm;
+		margin-left: 3.5cm;
+  		margin-right:1cm;}
+
+.inhoud {
+		display: block;
+		width: 13cm;
+		top:5cm;
+    	color:#000;
+    	font-size: 12px;
+    	line-height:2;
+    	margin-left:7cm;}
+
+
+
+
+
+
+}

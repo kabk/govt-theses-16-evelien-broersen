@@ -385,19 +385,13 @@ p {
 }
 
 
-@media print {
-    pijl {
-        display: none;
-    }
-	print {
-        display: none;
-    }
 
-    h1 {
-    page-break-before: always;
-}
+.inhoud {display: none;
 }
 
+.abstract {display: none;
+
+}
 
 
 
@@ -568,3 +562,16 @@ img {
 display: none;
 
 }
+
+
+
+
+
+
+
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
