@@ -130,20 +130,15 @@ div.container {
 }
 
 #thesis {
-      min-width: 300px;
-      max-width: 650px;
+	width:650px;
 	position:relative;
 	margin:0 auto;
 	top:800px;
 	height:756px;
-	z-index:1;
+	z-index:4;
 	font-size:19px;
 	line-height:1.4;
 	left:10%;
-
-
-
-
 }
 
 #bronnen {
@@ -391,183 +386,24 @@ p {
 
 
 
-.inhoud {display: none;
+.inhoud {
+	display: none;
+	color:#000;
 }
 
 .abstract {display: none;
 
 }
 
+@media print {
 
-
-@media screen and (max-width: 700px){
-#pijl {
-        display: none;
-    }
-#print {
-        display: none;
+.screen-only {
+        display: none; }
     }
 
 
+    @media screen {
 
-
-p {
-    margin-top: 0;
-
-}
-
-h1 {
-    font-size: 18px;
-    margin-top: 0;
-    line-height: 1.8;
-    margin-bottom: 25px;
-    margin-left: 2%;
-    margin-right:2%;
-    width: 40%;
-}
-
-h2 {
-    font-size: 15px;
-    line-height: 1.5;
-    margin-left: 12%;
-
-}
-
-h3 {
-    margin-left: 35%;
-    font-size: 8px;
-    line-height: 1;
-
-}
-
-h5 {
-	margin-top: 0;
-    margin-left: 2%;
-    margin-right:2%;
-    width: 26%;
-    font-size:15px;
-
-
-}
-
-
-h6 {
-	margin-top: 0;
-    margin-left: 17%;
-    margin-right:2%;
-    width: 26%;
-
-
-}
-
-#common {
-	width:60%;
-	position:absolute;
-	left:15%;
-	right:10%;
-	font-size:21px;
-	line-height:2.2;
-}
-
-#better {
-	width:60%;
-	position:absolute;
-	left:15%;
-	right:10%;
-	font-size:21px;
-	line-height:1.5;
-}
-
-#evelien {
-	width:60%;
-	position:absolute;
-	left:15%;
-	right:10%;
-	font-size:21px;
-	line-height:2.2;
-}
-
-#title {
-	position:absolute;
-	left:47%;
-	right:10%;}
-
-#subtitle {
-	position:absolute;
-	left:43%;
-	right:10%;}
-
-#author {
-	position:absolute;
-	left:44%;
-	right:10%;}
-
-#uitleg {
-	position:absolute;
-	left:15%;
-	right:10%;
-	top:480px;
-	text-align:center;
-	width:70%;
-	font-size:8px;
-
-}
-
-#omslag {
-	top:675px;
-	position:absolute;
-	left:15%;
-	right:0;
-	width:260px;
-	font-size:15px;
-	line-height:1.5;
-
-}
-#omslag2 {
-	top:1260px;
-	position:absolute;
-	left:15%;
-	right:0;
-	width:260px;
-	font-size:15px;
-	line-height:1.5;
-}
-
-img[src*="Common Glory/balkje.jpg"] {
-    display: none;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-
-
-#thesis {
-	top:1850px;
-	position:absolute;
-	left:15%;
-	right:25%;
-	width:60%;
-	font-size:13px;
-
-}
-
-#sticky {
-display: none;
-
-}
-
-
-
-
-
-
-
-@media screen {
-    .print-only {
-        display: none;
+.print-only {
+        display: none; }
     }
-}
-
