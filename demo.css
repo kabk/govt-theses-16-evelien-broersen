@@ -141,6 +141,9 @@ div.container {
 	line-height:1.4;
 	left:10%;
 
+
+
+
 }
 
 #bronnen {
@@ -515,17 +518,17 @@ h6 {
 	position:absolute;
 	left:15%;
 	right:0;
-	width:65%;
+	width:260px;
 	font-size:15px;
 	line-height:1.5;
 
 }
 #omslag2 {
-	top:180%;
+	top:1260px;
 	position:absolute;
 	left:15%;
 	right:0;
-	width:65%;
+	width:260px;
 	font-size:15px;
 	line-height:1.5;
 }
@@ -542,11 +545,11 @@ img {
 
 
 #thesis {
-	top:1950px;
+	top:1850px;
 	position:absolute;
 	left:15%;
-	right:15%;
-	width:65%;
+	right:25%;
+	width:60%;
 	font-size:13px;
 
 }
