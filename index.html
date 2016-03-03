@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <script type="text/javascript">
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
@@ -23,6 +24,10 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
+
+
+
 </script>
 
 
@@ -76,7 +81,7 @@ function MM_showHideLayers() { //v9.0
   <p>&nbsp;</p>
 
 
-  <div class="voorkant"><img src="voorkant.jpg" width="687,87px" height="971,34px" /> </div>
+
 
 <div id="common">COMMON GLORY</div>
 <div id="author">author</div>
@@ -91,6 +96,7 @@ function MM_showHideLayers() { //v9.0
 
 
 
+<div class="white"></div>
 
 
 
@@ -833,20 +839,27 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
 
 
 
-
-
-
-
-
-
 <link rel="stylesheet" href="demo.css" type="text/css" />
 <link rel="stylesheet" href="print.css" type="text/css" media="print" />
 <link rel="stylesheet" href="screen.css" type="text/css" media="screen" />
 
-
 <script src="jquery-1.9.1.js"></script>
 <script src="jquery-migrate-1.2.1.js"></script>
 <script src="ice.js"></script>
+
+
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('thesis'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
 
 <script>
      var tracker = new ice.InlineChangeEditor({
@@ -859,9 +872,8 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      });
      // setup and start event handling for track changes
      tracker.startTracking();
-
-
 </script>
+
 <script>
      var tracker = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
@@ -874,18 +886,7 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      // setup and start event handling for track changes
      tracker.startTracking();
 </script>
-<script>
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('better'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
-</script>
+
 <script>
      var tracker = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
@@ -898,19 +899,9 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      // setup and start event handling for track changes
      tracker.startTracking();
 </script>
-<script>
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('thesis'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
 
-     var tracker = new ice.InlineChangeEditor({
+<script>
+    var tracker = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
        element: document.getElementById('omslag'),
        // tell ice to setup/handle events on the `element`
@@ -921,6 +912,20 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      // setup and start event handling for track changes
      tracker.startTracking();
 </script>
+
+<script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('better'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
+</script>
+
 <script>
      var tracker = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
@@ -932,6 +937,7 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      });
      // setup and start event handling for track changes
      tracker.startTracking();
+
 </script>
 
 
