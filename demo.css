@@ -395,6 +395,8 @@ p {
 
 }
 
+.voorkant {display:none;}
+
 @media print {
 
 .screen-only {

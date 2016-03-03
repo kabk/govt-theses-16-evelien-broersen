@@ -75,6 +75,9 @@ function MM_showHideLayers() { //v9.0
 <body onload="MM_preloadImages('Common Glory/Cocolia_03.jpg')">
   <p>&nbsp;</p>
 
+
+  <div class="voorkant"><img src="voorkant.jpg" width="687,87px" height="971,34px" /> </div>
+
 <div id="common">COMMON GLORY</div>
 <div id="author">author</div>
 
@@ -112,7 +115,6 @@ function MM_showHideLayers() { //v9.0
 What are the consequences of the alternatives for copyright and what is most beneficial for the graphic designer?</g></p></div>
 
 
-<div class="white"></div>
 <div class="page-break"></div>
 <div class="page-break"></div>
 
@@ -169,6 +171,7 @@ scriptie 2016 </div>
    <div class="inhoud">
 
 <p><img src="Common Glory/balkje.jpg" width="50" height="1,5" /><br />
+  <h1>INHOUDSOPGAVE</h1>
   1. Inleiding<br />
   2. Plagiaat is genoodzaakt<br />
   3. Het privilege van reproductie<br />
@@ -193,7 +196,7 @@ scriptie 2016 </div>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.7 Creative Commons (CC)<br />
   11. Auteursrecht voor grafisch ontwerp<br />
   12. Conclusie<br />
- <br /><br />
+ <br />
   Definities / Bronnen<br />
 
 
@@ -857,16 +860,7 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      // setup and start event handling for track changes
      tracker.startTracking();
 
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('thesis'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
+
 </script>
 <script>
      var tracker = new ice.InlineChangeEditor({
@@ -905,6 +899,16 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      tracker.startTracking();
 </script>
 <script>
+     var tracker = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('thesis'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     tracker.startTracking();
 
      var tracker = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable

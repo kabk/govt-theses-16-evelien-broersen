@@ -10,7 +10,7 @@
         display: none;}
 
 
-#pijl, #print, #omslag, #uitleg, #sticky, #omslag2 {
+#pijl, #print, #omslag, #uitleg, #sticky, #omslag2, #common, #better, #author, #title, #subtitle, #evelien {
         display: none; }
 
 
@@ -70,70 +70,6 @@
 
 
 
-#common {
-	position:absolute;
-	left: 5%;
-	right: 50%; 
-	width: 13cm;
-	height:3cm;
-	border: 6px solid #000;
-	font-size:48px;
-	top:8cm;
-	line-height:2.5;}
-
-#better {
-	position:absolute;
-	left: 5%;
-	right: 50%; 
-	width: 13cm;
-	height:5cm;
-	border: 6px solid #000;
-	font-size:48px;
-	top:15cm;
-	line-height:1.4;}
-
-#evelien {
-	position:absolute;
-	left: 5%;
-	right: 50%; 
-	width: 13cm;
-	height:3cm;
-	border: 6px solid #000;
-	font-size:48px;
-	top:24cm;
-	line-height:2.5;
-	page-break-before: left;}
-
-
-	#title {
-	position:absolute;
-	left: 37%;
-	right: 50%; 
-  	top: 7cm;
-	width:140px;
-	height:40px;
-	z-index:1;
-	font-size:24px;}
-
-	#subtitle {
-	position:absolute;
-	left: 35%;
-	right: 50%; 
-  	top: 14cm;
-	width:140px;
-	height:40px;
-	z-index:1;
-	font-size:24px;}
-
-	#author {
-	position:absolute;
-	left: 35%;
-	right: 50%; 
-  	top: 23cm;
-	width:140px;
-	height:40px;
-	z-index:1;
-	font-size:24px;}
 
 
 
@@ -180,6 +116,7 @@
 		width:80%;
 		line-height:1.5;
 		margin-left:2cm;
+		top: 1cm;
 		}
 
 
@@ -187,12 +124,25 @@
 		display: block;
 		width: 88%;
 		top:2cm;
-    	font-size: 20px;
-    	line-height:2;
-    	margin-left:7cm;
+    	font-size: 15px;
+    	line-height:1.7;
+    	margin-left:2cm;
     	color:#000;
     }
 
+.voorkant{
+	display:block;
+	visibility: visible;
+	width:160%;
+	height:160%;
+	margin-top:-3cm ;
+	margin-left:-7cm;
+	border:none;
+	padding-left:0;
+	overflow:visible;
+
+
+}
 
 
 }
