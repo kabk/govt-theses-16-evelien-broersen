@@ -837,32 +837,20 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
 </div>
 
 
-
-
-<link rel="stylesheet" href="demo.css" type="text/css" />
-<link rel="stylesheet" href="print.css" type="text/css" media="print" />
-<link rel="stylesheet" href="screen.css" type="text/css" media="screen" />
-
 <script src="jquery-1.9.1.js"></script>
 <script src="jquery-migrate-1.2.1.js"></script>
 <script src="ice.js"></script>
 
 
-<script>
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('thesis'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
-</script>
+
+
+
+
+
+
 
 <script>
-     var tracker = new ice.InlineChangeEditor({
+     var trackerevelien = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
        element: document.getElementById('evelien'),
        // tell ice to setup/handle events on the `element`
@@ -871,24 +859,13 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
        currentUser: { id: 1, name: 'Miss T' }
      });
      // setup and start event handling for track changes
-     tracker.startTracking();
+     trackerevelien.startTracking();
 </script>
 
-<script>
-     var tracker = new ice.InlineChangeEditor({
-       // element to track - ice will make it contenteditable
-       element: document.getElementById('common'),
-       // tell ice to setup/handle events on the `element`
-       handleEvents: true,
-       // set a user object to associate with each change
-       currentUser: { id: 1, name: 'Miss T' }
-     });
-     // setup and start event handling for track changes
-     tracker.startTracking();
-</script>
+
 
 <script>
-     var tracker = new ice.InlineChangeEditor({
+     var trackeromslag2 = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
        element: document.getElementById('omslag2'),
        // tell ice to setup/handle events on the `element`
@@ -897,11 +874,11 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
        currentUser: { id: 1, name: 'Miss T' }
      });
      // setup and start event handling for track changes
-     tracker.startTracking();
+     trackeromslag2.startTracking();
 </script>
 
 <script>
-    var tracker = new ice.InlineChangeEditor({
+    var trackeromslag = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
        element: document.getElementById('omslag'),
        // tell ice to setup/handle events on the `element`
@@ -910,11 +887,12 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
        currentUser: { id: 1, name: 'Miss T' }
      });
      // setup and start event handling for track changes
-     tracker.startTracking();
+     trackeromslag.startTracking();
 </script>
 
+
 <script>
-     var tracker = new ice.InlineChangeEditor({
+     var trackerbetter = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
        element: document.getElementById('better'),
        // tell ice to setup/handle events on the `element`
@@ -923,11 +901,11 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
        currentUser: { id: 1, name: 'Miss T' }
      });
      // setup and start event handling for track changes
-     tracker.startTracking();
+     trackerbetter.startTracking();
 </script>
 
 <script>
-     var tracker = new ice.InlineChangeEditor({
+     var trackercommon = new ice.InlineChangeEditor({
        // element to track - ice will make it contenteditable
        element: document.getElementById('common'),
        // tell ice to setup/handle events on the `element`
@@ -936,13 +914,15 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
        currentUser: { id: 1, name: 'Miss T' }
      });
      // setup and start event handling for track changes
-     tracker.startTracking();
+     trackercommon.startTracking();
 
 </script>
 
 
 
-
+<link rel="stylesheet" href="demo.css" type="text/css" />
+<link rel="stylesheet" href="print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="screen.css" type="text/css" media="screen" />
 
 
 
