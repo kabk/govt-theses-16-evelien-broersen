@@ -12,6 +12,11 @@
 #print {
         display: none;}
 
+#omslag, #omslag2 {
+	display: none;
+}
+
+
 
 
 
@@ -102,6 +107,16 @@ h6 {
 	font-size:8px;}
 
 
+.groen {
+	top:85%;
+	position:absolute;
+	left:15%;
+	right:15%;
+	width:70%;	
+	font-size:15px;
+
+    }
+
 #omslag {
 	top:675px;
 	position:absolute;
@@ -131,7 +146,7 @@ img {
 
 
 #thesis {
-	top:1850px;
+	top:240%;
 	position:absolute;
 	left:15%;
 	right:15%;
@@ -140,6 +155,9 @@ img {
 
 #sticky {
 display: none;}
+
+
+
 
 
 
