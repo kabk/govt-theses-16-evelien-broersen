@@ -199,6 +199,10 @@ body{
 		margin-left:-7cm;}
 
 
+.groen {
+        display: none !important;
+    }
+
     .jquery-1.9.1.js{
       display: none;
       display:block;
