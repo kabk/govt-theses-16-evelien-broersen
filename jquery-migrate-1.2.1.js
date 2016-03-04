@@ -520,4 +520,17 @@ jQuery.each( ajaxEvents.split("|"),
 
 })( jQuery, window );
 
+window.onbeforeprint = function() { }
+
+window.onafterprint = function() { }
+
+var mediaQuery = window.matchMedia('print');
+mediaQuery.addListener(function(mql) {
+    if(mql.matches) {
+        console.log('before print');
+    }
+    else {
+        console.log('after print');
+    }
+});
 
