@@ -27,25 +27,3 @@ $(function () {
 
 
 
-$(document).ready(function()
-{
-    if (isPrinting() == false)
-    {
-        init();
-    }
-});
-
-function isPrinting()
-{
-    var isPrint = false;
-    /* I'm not 100% sure about the string literal check 'rgb(255, 255, 255)',
-       should do some testing here with other values || other attributes...
-       (font-size, color, line-height, other attributes that will have the 
-       greatest difference / variation between "screen" and "print" styles)
-    */
-    if ($('body').css('background-color') == 'rgb(255, 255, 255)')
-    {
-        isPrint = true;
-    }
-    return isPrint;
-}
