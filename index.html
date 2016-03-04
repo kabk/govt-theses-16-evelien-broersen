@@ -882,6 +882,18 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      trackeromslag2.startTracking();
 </script>
 
+<script>
+     var trackerthesis = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('thesis'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     trackerthesis.startTracking();
+</script>
 
 
 <script>
