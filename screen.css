@@ -107,15 +107,7 @@ h6 {
 	font-size:8px;}
 
 
-.groen {
-	top:135%;
-	position:absolute;
-	left:15%;
-	right:15%;
-	width:70%;	
-	font-size:15px;
 
-    }
 
 #omslag {
 	top:675px;
@@ -144,9 +136,19 @@ img {
     width: 100%;
     height: auto;}
 
+.groen {
+	top:700px;
+	position:absolute;
+	left:15%;
+	right:15%;
+	width:70%;	
+	font-size:15px;
+
+    }
+
 
 #thesis {
-	top:430%;
+	top:2100px;
 	position:absolute;
 	left:15%;
 	right:15%;
