@@ -8,7 +8,10 @@ body{
 
 
 	.screen-only {
-        display: none;}
+        display: none;
+        }
+
+
 
 
 	#pijl, #print, #omslag, #uitleg, #sticky, #omslag2 {
@@ -46,10 +49,10 @@ body{
 	@page {
   		sheet-size:JIS B5;
   		size: 18.2cm 25.7cm;
-		orphans:5; 
-		widows:5;
-		margin-bottom:1.7cm;
-		margin-top:1cm;}
+		  orphans:5; 
+		  widows:5;
+		  margin-bottom:1.7cm;
+		  margin-top:1cm;}
 
 	@page :left {
   		margin-left: 1cm;

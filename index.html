@@ -849,7 +849,9 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
 
 
 
-
+<link rel="stylesheet" href="demo.css" type="text/css" />
+<link rel="stylesheet" href="print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="screen.css" type="text/css" media="screen" />
 
 
 
@@ -867,7 +869,18 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
      trackerevelien.startTracking();
 </script>
 
-
+<script>
+     var trackerthesis = new ice.InlineChangeEditor({
+       // element to track - ice will make it contenteditable
+       element: document.getElementById('thesis'),
+       // tell ice to setup/handle events on the `element`
+       handleEvents: true,
+       // set a user object to associate with each change
+       currentUser: { id: 1, name: 'Miss T' }
+     });
+     // setup and start event handling for track changes
+     trackerthesis.startTracking();
+</script>
 
 <script>
      var trackeromslag2 = new ice.InlineChangeEditor({
@@ -928,9 +941,7 @@ Het is belangrijk om na te denken over hoe een ontwerp beschermd moet worden. He
 
 
 
-<link rel="stylesheet" href="demo.css" type="text/css" />
-<link rel="stylesheet" href="print.css" type="text/css" media="print" />
-<link rel="stylesheet" href="screen.css" type="text/css" media="screen" />
+
 
 
 
